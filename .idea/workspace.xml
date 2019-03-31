@@ -1,12 +1,568 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6e97d3d-af2b-4705-a476-d4dc198cbbec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/faces/marc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/new_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/reactlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/sidebar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/sidebar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/sidebar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/sidebar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/img/tim_80x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/assets/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation/tutorial-components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/clem-onojegaw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/clem-onojeghuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/cynthia-del-rio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/mariya-georgieva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/olu-eletu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/studio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/studio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/studio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/studio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/examples/studio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/camp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/card-profile1-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/card-profile2-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/card-profile4-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/card-profile5-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/card-profile6-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/christian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/kendall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/landing-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/profile-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/sign.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/badgeStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/buttonStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardBodyStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardFooterStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardHeaderStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/customDropdownStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/customInputStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/customLinearProgressStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/customTabsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/footerStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerLinksStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/infoStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/navPillsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/paginationStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/parallaxStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/snackbarContentStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/typographyStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/customCheckboxRadioSwitch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/imagesStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/modalStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/popoverStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/tooltipsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/components.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/basicsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/completedStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/downloadStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/javascriptStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/loginStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/navbarsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/notificationsStyles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/pillsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/tabsStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/mixins/_colored-shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_bootstrap-material-design-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_bootstrap-material-design.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_colors-map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/core/variables/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/material-kit-react.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/plugins/_plugin-nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/plugins/_plugin-react-datetime.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/plugins/_plugin-react-slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Badge/Badge.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/CardBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/CardFooter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/CardHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clearfix/Clearfix.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomButtons/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomDropdown/CustomDropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomLinearProgress/CustomLinearProgress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomTabs/CustomTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Grid/GridContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Grid/GridItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InfoArea/InfoArea.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavPills/NavPills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parallax/Parallax.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Snackbar/SnackbarContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Danger.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Info.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Muted.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Primary.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Quote.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Small.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Success.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Typography/Warning.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Components.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionBasics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCompletedExamples.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionDownload.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionExamples.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionJavascript.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionLogin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionNavbars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionNotifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionPills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTypography.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProductSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/WorkSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="134" column="93" lean-forward="true" selection-start-line="134" selection-start-column="93" selection-end-line="134" selection-end-column="93" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assets</find>
+      <find>jss/mae</find>
+      <find>asset</find>
+      <find>Footer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>../../assets</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/routes/index.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/views/index/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1890" />
     <option name="height" value="1049" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="academy-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="academy-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfilePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pene" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6e97d3d-af2b-4705-a476-d4dc198cbbec" name="Default Changelist" comment="" />
+      <created>1553930151092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553930151092</updated>
+      <workItem from="1553930152696" duration="2116000" />
+      <workItem from="1553939878742" duration="2252000" />
+      <workItem from="1553961342869" duration="7156000" />
+      <workItem from="1554018022868" duration="2464000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1920" height="1055" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32975295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32975295" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Grid/GridContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/assets/jss/material-kit-react.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#177#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/routes/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="8556" column="4" selection-start-line="8556" selection-start-column="4" selection-end-line="8556" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/bg2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/bg7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/bg3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/bg4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="134" column="93" lean-forward="true" selection-start-line="134" selection-start-column="93" selection-end-line="134" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/sign.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/profile-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/profile.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/landing-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/landing.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
